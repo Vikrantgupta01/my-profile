@@ -15,6 +15,11 @@ Install Create React App globally:
 
 
 
+#Notes
+1) Working with simple docker image
+- docker build -t my-profile:latest 
+- docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm my-profile:latest
+
 
 
 
