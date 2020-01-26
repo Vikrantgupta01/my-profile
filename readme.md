@@ -27,3 +27,7 @@ Install Create React App globally:
 # References
 https://mherman.org/blog/dockerizing-a-react-app/
 
+
+#Future plans
+ - Deploy using AWS S3 as well ui 
+
