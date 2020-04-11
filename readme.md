@@ -26,6 +26,8 @@ Install Create React App globally:
 
 # References
 https://mherman.org/blog/dockerizing-a-react-app/
+https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm/
+https://nodesource.com/blog/semver-a-primer/
 
 
 #Future plans

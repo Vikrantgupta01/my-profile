@@ -8,6 +8,6 @@ class Hello extends React.Component {
   }
   
   ReactDOM.render(
-    <Hello toWhat="World" />,
+    <Hello toWhat="World !!!!" />,
     document.getElementById('root')
   );
