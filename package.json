@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy-app": "aws s3 sync build/ s3://easyshoppingmart --acl public-read"
   },
   "dependencies": {
     "axios": "^0.19.2",

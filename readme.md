@@ -17,7 +17,7 @@ Install Create React App globally:
 
 #Notes
 1) Working with simple docker image
-- docker build -t my-profile:latest 
+- docker build . -t my-profile:latest 
 - docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm my-profile:latest
 
 
@@ -29,7 +29,7 @@ https://mherman.org/blog/dockerizing-a-react-app/
 https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm/
 https://nodesource.com/blog/semver-a-primer/
 
-
+https://medium.com/serverlessguru/deploy-reactjs-app-with-s3-static-hosting-f640cb49d7e6
 #Future plans
  - Deploy using AWS S3 as well ui 
 
